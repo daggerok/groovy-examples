@@ -1,0 +1,6 @@
+*.bat   text eol=crlf
+*.cmd   text eol=crlf
+gradlew text eol=lf
+.bash   text eol=lf
+.zsh    text eol=lf
+.sh     text eol=lf

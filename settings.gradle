@@ -1,0 +1,6 @@
+rootProject.name = 'groovy-examples'
+
+include(
+  'collectins',
+  'spock-template',
+)
