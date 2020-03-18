@@ -5,18 +5,11 @@ package daggerok
 
 import spock.lang.Specification
 
-class AppTest extends Specification {
+class Tests extends Specification {
     def 'application has a greeting'() {
-
-        println('ololo trololo')
-
-        setup:
-        def app = new App()
-
         when:
-        def result = app.greeting
-
+        def result = new Random().nextInt(100)
         then:
-        result != null
+        result <= 100
     }
 }
